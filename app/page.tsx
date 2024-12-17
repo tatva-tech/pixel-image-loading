@@ -17,13 +17,6 @@ export default function Home() {
   return (
     <main className="px-3 md:px-5 lg:px-10 py-3 lg:py-5">
       <header className="flex">
-        <Link
-          href={"https://shilp.co"}
-          target="_blank"
-          className="text-2xl hover:text-blue-500 hover:underline transition-all tracking-tight"
-        >
-          Shilp.co
-        </Link>
       </header>
       <section>
         <div className="mt-[100px]">
@@ -52,7 +45,6 @@ export default function Home() {
       <footer className="pb-10 pt-40 text-center">
         <div className="text-2xl">Credits</div>
         <div className="flex flex-col mt-5">
-          <Link className="hover:text-blue-500 hover:underline transition-all" href={"https://shilp.co"}>Shilp</Link>
           <Link className="hover:text-blue-500 hover:underline transition-all" href={"https://lenis.darkroom.engineering/"}>Lenis</Link>
           <Link className="hover:text-blue-500 hover:underline transition-all" href={"https://gsap.com/"}>Gsap</Link>
           <Link className="hover:text-blue-500 hover:underline transition-all" href={"https://imagesloaded.desandro.com/"}>Imagesloaded</Link>
